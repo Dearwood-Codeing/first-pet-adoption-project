@@ -40,7 +40,8 @@
             </svg>
 
             <h2>Sunny Play</h2>
-            <p>Our center is located in beautiful Miami, and it&rsquo;s currently <span id="temperature-output"></span>°F at our pet playground.</p>
+            <p>Our center is located in beautiful Miami, and it&rsquo;s currently <span
+                id="temperature-output"></span>°F at our pet playground.</p>
           </div>
           <div class="intro-feature">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,53 +118,20 @@
         </p>
       </div>
       <div class="pet-cards-area">
-        <div class="pet-card">
-          <div class="pet-card-text">
-            <h3>Barksalot</h3>
-            <p class="pet-detail">Barksalot is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery,
-              and
-              playing fetch.</p>
-            <p class="pet-age">2 years old</p>
-          </div>
-          <div class="pet-picture">
-            <img src="images/barksalot.jpg" alt="A White fuffy dog named Barksalot">
-          </div>
-        </div> <!-- end of pet card -->
-        <div class="pet-card">
-          <div class="pet-card-text">
-            <h3>Meowsalot</h3>
-            <p class="pet-detail">Meowsalot is the most talkative cat we @raquo ever come across. Constant meowing,
-              chirping
-              and purring!</p>
-            <p class="pet-age">1 years old</p>
-          </div>
-          <div class="pet-picture">
-            <img src="images/meowsalot.jpg" alt="A cat">
-          </div>
-        </div> <!-- end of pet card -->
-        <div class="pet-card">
-          <div class="pet-card-text">
-            <h3>Woof</h3>
-            <p class="pet-detail">Woof is a very talkative and sweet pup. She loves beets, plums, cuddles and jumping
-              over
-              low fences.</p>
-            <p class="pet-age">less than years old</p>
-          </div>
-          <div class="pet-picture">
-            <img src="images/woof.jpg" alt="A dog">
-          </div>
-        </div> <!-- end of pet card -->
-        <div class="pet-card">
-          <div class="pet-card-text">
-            <h3>Purrsloud</h3>
-            <p class="pet-detail">Purrsloud has the loudest and most relaxing purr that&raquo;s come through our center.
-              Come hear it yourself.</p>
-            <p class="pet-age">4 years old</p>
-          </div>
-          <div class="pet-picture">
-            <img src="images/purrsloud.jpg" alt="A cat">
-          </div>
-        </div> <!-- end of pet card -->
+        <template id="pet-cards-template">
+          <div class="pet-card">
+            <div class="pet-card-text">
+              <h3></h3>
+              <p class="pet-detail">Barksalot is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery,
+                and
+                playing fetch.</p>
+              <p class="pet-age">2 years old</p>
+            </div>
+            <div class="pet-picture">
+              <img src="images/barksalot.jpg" alt="A White fuffy dog named Barksalot">
+            </div>
+          </div> <!-- end of pet card -->
+        </template>
       </div>
     </div>
 
@@ -171,7 +139,7 @@
 
 
   <footer class="footer-area">
-    <p>                                           
+    <p>
       &copy; 2023 Fake Adoption Center. All rights reserved.
     </p>
   </footer>
